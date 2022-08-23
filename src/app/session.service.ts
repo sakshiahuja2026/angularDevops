@@ -11,10 +11,10 @@ export class SessionService {
 
   //Promise 
   signupApi(user: any): Observable<any> {
-    return this.http.post("http://localhost:9898/public/signup", user)
+    return this.http.post("http://localhost:9888/public/signup", user)
   }
 
   loginApi(user: any): Observable<any> {
-    return this.http.post("http://localhost:9898/public/login", user)
+    return this.http.post("http://localhost:9888/public/login", user)
   }
 }

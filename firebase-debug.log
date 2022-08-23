@@ -68,3 +68,303 @@ Before we get started, keep in mind:
     at processTicksAndRejections (node:internal/process/task_queues:83:21)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2022-08-22T15:56:57.594Z] ----------------------------------------------------------------------
+[debug] [2022-08-22T15:56:57.596Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAKSHI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting:github
+[debug] [2022-08-22T15:56:57.597Z] CLI Version:   11.7.0
+[debug] [2022-08-22T15:56:57.597Z] Platform:      win32
+[debug] [2022-08-22T15:56:57.598Z] Node Version:  v16.16.0
+[debug] [2022-08-22T15:56:57.600Z] Time:          Mon Aug 22 2022 21:26:57 GMT+0530 (India Standard Time)
+[debug] [2022-08-22T15:56:57.600Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-22T15:56:57.713Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-22T15:56:57.714Z] > authorizing via signed-in user (sakshiahuja2026@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Sakshi\Angular\exp-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-22T15:57:02.130Z] Using project from CLI flag: devopsdemo-a1df1
+[debug] [2022-08-22T15:57:02.132Z] > refreshing access token with scopes: []
+[debug] [2022-08-22T15:57:02.135Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-08-22T15:57:02.135Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-22T15:57:02.452Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-08-22T15:57:02.452Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-22T15:57:02.493Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 [none]
+[debug] [2022-08-22T15:57:03.125Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 200
+[debug] [2022-08-22T15:57:03.126Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 {"projectId":"devopsdemo-a1df1","projectNumber":"799666538053","displayName":"DevOpsDemo","name":"projects/devopsdemo-a1df1","resources":{"hostingSite":"devopsdemo-a1df1"},"state":"ACTIVE","etag":"1_6caac401-5722-49ca-96b4-035469ab718f"}
+[info] i  Using project devopsdemo-a1df1 (DevOpsDemo) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at D:\Sakshi\Angular\exp-tracker 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=802885939&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-22T15:57:03.208Z] Error: spawn cmd ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:478:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-22T16:00:01.088Z] ----------------------------------------------------------------------
+[debug] [2022-08-22T16:00:01.093Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAKSHI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting:github
+[debug] [2022-08-22T16:00:01.094Z] CLI Version:   11.7.0
+[debug] [2022-08-22T16:00:01.094Z] Platform:      win32
+[debug] [2022-08-22T16:00:01.094Z] Node Version:  v16.16.0
+[debug] [2022-08-22T16:00:01.096Z] Time:          Mon Aug 22 2022 21:30:01 GMT+0530 (India Standard Time)
+[debug] [2022-08-22T16:00:01.096Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-22T16:00:01.202Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-22T16:00:01.203Z] > authorizing via signed-in user (sakshiahuja2026@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Sakshi\Angular\exp-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-22T16:00:05.000Z] Using project from CLI flag: devopsdemo-a1df1
+[debug] [2022-08-22T16:00:05.005Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 [none]
+[debug] [2022-08-22T16:00:05.606Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 200
+[debug] [2022-08-22T16:00:05.606Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 {"projectId":"devopsdemo-a1df1","projectNumber":"799666538053","displayName":"DevOpsDemo","name":"projects/devopsdemo-a1df1","resources":{"hostingSite":"devopsdemo-a1df1"},"state":"ACTIVE","etag":"1_6caac401-5722-49ca-96b4-035469ab718f"}
+[info] i  Using project devopsdemo-a1df1 (DevOpsDemo) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at D:\Sakshi\Angular\exp-tracker 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=923574849&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-22T16:00:05.727Z] Error: spawn cmd ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:478:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-22T16:05:06.997Z] ----------------------------------------------------------------------
+[debug] [2022-08-22T16:05:07.000Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAKSHI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting:github
+[debug] [2022-08-22T16:05:07.002Z] CLI Version:   11.7.0
+[debug] [2022-08-22T16:05:07.002Z] Platform:      win32
+[debug] [2022-08-22T16:05:07.002Z] Node Version:  v16.16.0
+[debug] [2022-08-22T16:05:07.005Z] Time:          Mon Aug 22 2022 21:35:07 GMT+0530 (India Standard Time)
+[debug] [2022-08-22T16:05:07.006Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-22T16:05:07.137Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-22T16:05:07.138Z] > authorizing via signed-in user (sakshiahuja2026@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Sakshi\Angular\exp-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-22T16:05:16.351Z] Using project from CLI flag: devopsdemo-a1df1
+[debug] [2022-08-22T16:05:16.359Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 [none]
+[debug] [2022-08-22T16:05:16.974Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 200
+[debug] [2022-08-22T16:05:16.975Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 {"projectId":"devopsdemo-a1df1","projectNumber":"799666538053","displayName":"DevOpsDemo","name":"projects/devopsdemo-a1df1","resources":{"hostingSite":"devopsdemo-a1df1"},"state":"ACTIVE","etag":"1_6caac401-5722-49ca-96b4-035469ab718f"}
+[info] i  Using project devopsdemo-a1df1 (DevOpsDemo) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at D:\Sakshi\Angular\exp-tracker 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=1018618499&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-22T16:05:17.079Z] Error: spawn cmd ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:478:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-23T06:18:44.166Z] ----------------------------------------------------------------------
+[debug] [2022-08-23T06:18:44.170Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAKSHI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting:github
+[debug] [2022-08-23T06:18:44.171Z] CLI Version:   11.7.0
+[debug] [2022-08-23T06:18:44.172Z] Platform:      win32
+[debug] [2022-08-23T06:18:44.172Z] Node Version:  v16.16.0
+[debug] [2022-08-23T06:18:44.180Z] Time:          Tue Aug 23 2022 11:48:44 GMT+0530 (India Standard Time)
+[debug] [2022-08-23T06:18:44.181Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-23T06:18:44.308Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-23T06:18:44.309Z] > authorizing via signed-in user (sakshiahuja2026@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Sakshi\Angular\exp-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-23T06:18:51.627Z] Using project from CLI flag: devopsdemo-a1df1
+[debug] [2022-08-23T06:18:51.630Z] > refreshing access token with scopes: []
+[debug] [2022-08-23T06:18:51.634Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-08-23T06:18:51.634Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-23T06:18:52.047Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-08-23T06:18:52.047Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-23T06:18:52.081Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 [none]
+[debug] [2022-08-23T06:18:52.734Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 200
+[debug] [2022-08-23T06:18:52.735Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 {"projectId":"devopsdemo-a1df1","projectNumber":"799666538053","displayName":"DevOpsDemo","name":"projects/devopsdemo-a1df1","resources":{"hostingSite":"devopsdemo-a1df1"},"state":"ACTIVE","etag":"1_6caac401-5722-49ca-96b4-035469ab718f"}
+[info] i  Using project devopsdemo-a1df1 (DevOpsDemo) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at D:\Sakshi\Angular\exp-tracker 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=738239019&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-23T06:18:52.827Z] Error: spawn cmd ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:478:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-23T06:21:17.473Z] ----------------------------------------------------------------------
+[debug] [2022-08-23T06:21:17.477Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAKSHI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting:github
+[debug] [2022-08-23T06:21:17.478Z] CLI Version:   11.7.0
+[debug] [2022-08-23T06:21:17.478Z] Platform:      win32
+[debug] [2022-08-23T06:21:17.478Z] Node Version:  v16.16.0
+[debug] [2022-08-23T06:21:17.481Z] Time:          Tue Aug 23 2022 11:51:17 GMT+0530 (India Standard Time)
+[debug] [2022-08-23T06:21:17.481Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-23T06:21:17.608Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-23T06:21:17.609Z] > authorizing via signed-in user (sakshiahuja2026@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Sakshi\Angular\exp-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-23T06:21:19.949Z] Using project from CLI flag: devopsdemo-a1df1
+[debug] [2022-08-23T06:21:19.954Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 [none]
+[debug] [2022-08-23T06:21:20.495Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 200
+[debug] [2022-08-23T06:21:20.496Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/devopsdemo-a1df1 {"projectId":"devopsdemo-a1df1","projectNumber":"799666538053","displayName":"DevOpsDemo","name":"projects/devopsdemo-a1df1","resources":{"hostingSite":"devopsdemo-a1df1"},"state":"ACTIVE","etag":"1_6caac401-5722-49ca-96b4-035469ab718f"}
+[info] i  Using project devopsdemo-a1df1 (DevOpsDemo) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at D:\Sakshi\Angular\exp-tracker 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=837599356&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-08-23T06:21:20.595Z] Error: spawn cmd ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:478:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-08-23T06:22:14.321Z] ----------------------------------------------------------------------
+[debug] [2022-08-23T06:22:14.325Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SAKSHI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting:github
+[debug] [2022-08-23T06:22:14.327Z] CLI Version:   11.7.0
+[debug] [2022-08-23T06:22:14.327Z] Platform:      win32
+[debug] [2022-08-23T06:22:14.327Z] Node Version:  v16.16.0
+[debug] [2022-08-23T06:22:14.330Z] Time:          Tue Aug 23 2022 11:52:14 GMT+0530 (India Standard Time)
+[debug] [2022-08-23T06:22:14.331Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-23T06:22:14.436Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-23T06:22:14.437Z] > authorizing via signed-in user (sakshiahuja2026@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Sakshi\Angular\exp-tracker
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
