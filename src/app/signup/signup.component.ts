@@ -28,12 +28,18 @@ export class SignupComponent {
       "password": this.password,
       "gender": "male"
     }
-    this.sessionService.signupApi(user).subscribe(res => {
-        if(res){
-          this.tsService.success("Signup", "", { timeOut: 3000 });
-          this.router.navigateByUrl("/login")      
-        }
+    this.sessionService.signupApi(user).subscribe(success => {
+      if (success) {
+        this.tsService.success("Signup", "", { timeOut: 3000 });
+        this.router.navigateByUrl("/login")
+      }
+    }, err => {
+      this.tsService.error("Signup failed", "", { timeOut: 3000 });
+
     })
     //
+
+    //url 
+    //logic
   }
 }

@@ -11,6 +11,7 @@ export class SessionService {
 
   //Promise 
   signupApi(user: any): Observable<any> {
+    console.log(user);
     return this.http.post("http://localhost:9888/public/signup", user)
   }
 
