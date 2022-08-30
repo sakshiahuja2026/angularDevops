@@ -19,6 +19,11 @@ import { LogoutComponent } from './logout/logout.component';
 import { UserlayoutComponent } from './userlayout/userlayout.component';
 import { EditroleComponent } from './editrole/editrole.component';
 import { AddUserComponent } from './add-user/add-user.component';
+import { MyHomeComponent } from './my-home/my-home.component';
+import { ListAccountComponent } from './list-account/list-account.component';
+import { AddAccountComponent } from './add-account/add-account.component';
+import { AddPaymentComponent } from './add-payment/add-payment.component';
+import { GenderPipe } from './pipe/gender.pipe';
 
 @NgModule({
   declarations: [
@@ -32,7 +37,12 @@ import { AddUserComponent } from './add-user/add-user.component';
     LogoutComponent,
     UserlayoutComponent,
     EditroleComponent,
-    AddUserComponent
+    AddUserComponent,
+    MyHomeComponent,
+    ListAccountComponent,
+    AddAccountComponent,
+    AddPaymentComponent,
+    GenderPipe
   ],
   imports: [
     BrowserModule,

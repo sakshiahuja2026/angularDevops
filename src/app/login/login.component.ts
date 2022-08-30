@@ -26,10 +26,16 @@ export class LoginComponent implements OnInit {
       //json 
       console.log(resp.data.user);
       let authToken = resp.data.user.authToken
-      localStorage.setItem("authToken", authToken)
 
+      localStorage.setItem("authToken", authToken)
+      localStorage.setItem("userId",resp.data.user.userId)
+      localStorage.setItem("email",resp.data.user.email)
+      localStorage.setItem("firstName",resp.data.user.firstName)
       this.toastr.success("Login done"+resp.data.user.authToken)
+
       this.authTokenService.authToken = resp.data.user.authToken
+      this.authTokenService.userId = resp.data.user.userId 
+      
       if (resp.data.user.role.roleName == "user") {
 
         this.router.navigateByUrl("/user/home")
